@@ -1,0 +1,29 @@
+# Key valur pair
+name : web-app
+Environment : PROD
+
+# object
+server : 
+  name : nginx-1
+  capacity : 4 GB
+
+# List element
+social_media : 
+  - insta
+  - facebook
+  - youtube
+
+#multiline
+testing : |
+  this is
+  multiline
+  paragraph
+
+# List of Objects
+list_of_server :
+  - server_1 :
+      name : EC2
+      volume : 8GB
+  - server_2 :
+      name : EKS
+      volume : 5GB
